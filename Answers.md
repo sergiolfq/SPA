@@ -57,24 +57,24 @@ if( in_array($opType,$array_type['physical]){
 ## 5 SOLID
 
 > Some examples of solid : 
-> - Single responsability 
+> - Single responsability :
 > a class should have one and only one responsability: 
 > it is important to create classes focused on one concern.
 
 
-> - Open close principle 
+> - Open close principle :
 > Classes must be open for extension close for modification
 > In PHP we should make use of interface when necessary so we can consistently adapt method to new implementations according to the context. 
 
-> - Liskov Substitution Principle
+> - Liskov Substitution Principle :
 > Object should be replace with instances of their subtype without altering the correct functioning of their system. 
 >in PHP this can be achieved by implementing interfaces and making basic implementation in classes that could be used to be extended and incorporate new functionalities. 
 
-> - Interface Segregation Principles
+> - Interface Segregation Principles :
 > a client should not be forced to use an inte or method that doesn't need 
 > in PHP we can build specific interfaces targeting to solve a specific need rather than making general methods that will not be used. 
 
-> - Dependency Inversion System
+> - Dependency Inversion System :
 > in Php One class should not depend on another class. It should only depend on an abstraction of this class. 
 > a practical way to achieve this is to create an interface and make your controller recieve that interface instead of that class.  
 
