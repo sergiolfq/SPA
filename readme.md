@@ -23,11 +23,13 @@ This Laravel SPA displays two charts in dfferent sections and allows you to swit
 
 clone repo. 
 
-access client folder y execute  `npm install`. once finish run  `npm start`  
+access client folder y execute  `npm install`. once finish run  `npm watch`  
 
 
-on main folder run `composer install`. then php `artisan key:generate`
-replace .env.example for .env then run `php artisan config:cache` to refresh environment variables. 
+on main folder run 
+`composer install`. 
+`cp .env.example .env`. 
+`php artisan key:generate` 
 
 then start serving  `php artisan serve` 
 
