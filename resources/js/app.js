@@ -6,8 +6,9 @@
  */
 
 require('./bootstrap');
-
 window.Vue = require('vue');
+
+import i18n from './i18n';
 
 /**
  * The following block of code may be used to automatically register your
@@ -23,6 +24,7 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('main-menu', require('./components/MainMenu.vue').default);
 
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -30,5 +32,6 @@ Vue.component('main-menu', require('./components/MainMenu.vue').default);
  */
 
 const app = new Vue({
+    i18n,
     el: '#app'
 });

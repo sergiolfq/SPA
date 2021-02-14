@@ -3,10 +3,10 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Anual Report</div>
-
+                    <div class="card-header"> {{ $t("message.annual_report") }} </div>
                     <div class="card-body">
-                        This is your anual report
+                        {{ $t("message.this_is_annual_report") }}
+                        <img class="img-fluid" :src="img_src_two">
                     </div>
                 </div>
             </div>
@@ -16,8 +16,8 @@
 
 <script>
     export default {
-        mounted() {
-            console.log('Component mounted.')
+        data() {
+            return { img_src_two: '/img/chart2.png',}
         }
     }
 </script>
