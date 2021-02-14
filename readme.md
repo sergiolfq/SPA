@@ -15,7 +15,7 @@ This Laravel SPA displays two charts in dfferent sections and allows you to swit
 - in MainMenu.vue I made a select html element that tells the i18n objet about the current selected language. this make the change take efect in the SPA.     
 
 
-![Balance Image ](info/demo.PNG)
+(info/demo.PNG)
 #
 
 
