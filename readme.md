@@ -14,11 +14,24 @@ This Laravel SPA displays two charts in dfferent sections and allows you to swit
 - in the app.js I incorporated the i18n object and added it to the app Vue object so it could be reachable throughout the SPA using the translation function $t("key") 
 - in MainMenu.vue I made a select html element that tells the i18n objet about the current selected language. this make the change take efect in the SPA.     
 
-## Settings 
-- 1 'git clone '
-- 2 'composer install' 
-- 3 'npm install'
-- 4 'php artisan serve' 
-- 5 'npm run watch'
 
-Go to http://127.0.0.1:8000/#/annual 
+![Balance Image ](info/demo.PNG)
+#
+
+
+## Settings
+
+clone repo. 
+
+access client folder y execute  `npm install`. once finish run  `npm start`  
+
+
+on main folder run `composer install`. then php `artisan key:generate`
+replace .env.example for .env and set up your database credential inside then tun `php artisan config:cache` to refresh environment variables. 
+
+Next step run migrtion `php artisan migrate` 
+
+then start serving  `php artisan serve` 
+
+
+Go to http://127.0.0.1:8000/
