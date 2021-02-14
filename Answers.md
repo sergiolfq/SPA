@@ -57,7 +57,8 @@ if( in_array($opType,$array_type['physical]){
 ## 5 SOLID
 
 > Some examples of solid : 
-> Single responsability a class should have one and only one responsability: 
+> - Single responsability 
+> a class should have one and only one responsability: 
 > it is important to create classes focused on one concern.
 
 
