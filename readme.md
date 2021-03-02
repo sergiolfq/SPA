@@ -33,3 +33,6 @@ on main folder run
 then start serving  `php artisan serve` 
 
 Go to http://127.0.0.1:8000/
+
+
+## Demo available temporaly at aws http://18.188.164.144/
